@@ -32,7 +32,7 @@ class SiddhiRohan:
         self.name = "Siddhi Rohan Chakka"
         self.role = "Data Scientist & ML Engineer"
         self.location = "Washington, D.C. 🇺🇸"
-        self.education = "MS Data Science @ University of Maryland (GPA: 3.83)"
+        self.education = "MS Data Science @ University of Maryland"
         
     def current_focus(self):
         return [
