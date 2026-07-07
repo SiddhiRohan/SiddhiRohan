@@ -1,0 +1,110 @@
+<svg viewBox="0 0 900 240" width="900" height="240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Siddhi Rohan — data science profile">
+  <defs>
+    <pattern id="dotgrid" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.1" fill="#1a1817" opacity="0.07"/>
+    </pattern>
+  </defs>
+
+  <!-- paper -->
+  <rect x="0" y="0" width="900" height="240" rx="10" fill="#f2ede3"/>
+  <rect x="0" y="0" width="900" height="240" rx="10" fill="url(#dotgrid)"/>
+  <rect x="0.5" y="0.5" width="899" height="239" rx="9.5" fill="none" stroke="#d8d0c2"/>
+
+  <!-- masthead rules -->
+  <rect x="24" y="20" width="852" height="3" fill="#1a1817"/>
+  <rect x="24" y="27" width="852" height="1" fill="#1a1817"/>
+
+  <!-- masthead row -->
+  <g font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace" font-size="10" fill="#55504a" letter-spacing="2.5">
+    <text x="24" y="45">PROFILE — DATA SCIENCE</text>
+    <text x="876" y="45" text-anchor="end">FINANCIAL AI &#183; HEALTHCARE AI &#183; NLP</text>
+  </g>
+
+  <!-- name -->
+  <text x="52" y="120" font-family="Georgia,'Iowan Old Style','Times New Roman',serif" font-size="54" letter-spacing="0.5">
+    <tspan fill="#1a1817">Siddhi</tspan><tspan fill="#c8451f" font-style="italic">&#160;Rohan</tspan>
+  </text>
+  <rect x="54" y="136" width="0" height="1.5" fill="#1a1817">
+    <animate attributeName="width" from="0" to="380" dur="1.2s" begin="0.2s" fill="freeze"/>
+  </rect>
+
+  <!-- deck line -->
+  <text x="54" y="164" font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace" font-size="13" fill="#55504a" letter-spacing="0.5" opacity="0">
+    models, pipelines &amp; language systems
+    <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="1s" fill="freeze"/>
+  </text>
+
+  <!-- credential line -->
+  <text x="54" y="196" font-family="Georgia,'Times New Roman',serif" font-style="italic" font-size="14" fill="#8a8175" opacity="0">
+    M.S. Data Science, University of Maryland
+    <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="1.4s" fill="freeze"/>
+  </text>
+
+  <!-- spinning editorial star -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" values="0 502 92;360 502 92" dur="24s" repeatCount="indefinite"/>
+    <path d="M502 76 L505 88 L516 92 L505 96 L502 108 L499 96 L488 92 L499 88 Z" fill="#c8451f"/>
+  </g>
+
+  <!-- ===== fig. 01 : chart ===== -->
+  <!-- axes -->
+  <line x1="560" y1="55" x2="560" y2="186" stroke="#1a1817" stroke-width="1"/>
+  <line x1="560" y1="186" x2="864" y2="186" stroke="#1a1817" stroke-width="1"/>
+  <!-- ticks -->
+  <g stroke="#1a1817" stroke-width="1">
+    <line x1="556" y1="85" x2="560" y2="85"/>
+    <line x1="556" y1="118" x2="560" y2="118"/>
+    <line x1="556" y1="151" x2="560" y2="151"/>
+    <line x1="636" y1="186" x2="636" y2="190"/>
+    <line x1="712" y1="186" x2="712" y2="190"/>
+    <line x1="788" y1="186" x2="788" y2="190"/>
+  </g>
+  <!-- gridlines -->
+  <g stroke="#1a1817" stroke-width="0.75" stroke-dasharray="2 5" opacity="0.18">
+    <line x1="560" y1="85" x2="864" y2="85"/>
+    <line x1="560" y1="118" x2="864" y2="118"/>
+    <line x1="560" y1="151" x2="864" y2="151"/>
+  </g>
+
+  <!-- baseline series (ink, quiet) -->
+  <path d="M560,152 L600,156 L640,142 L680,149 L720,134 L760,139 L800,128 L858,131"
+        fill="none" stroke="#1a1817" stroke-width="1" stroke-dasharray="3 4" opacity="0.45"/>
+
+  <!-- accent series draws itself -->
+  <path d="M560,168 L600,152 L640,158 L680,134 L720,126 L760,104 L800,96 L858,70"
+        fill="none" stroke="#c8451f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"
+        stroke-dasharray="345" stroke-dashoffset="345">
+    <animate attributeName="stroke-dashoffset" from="345" to="0" dur="2.2s" begin="0.4s" fill="freeze"/>
+  </path>
+
+  <!-- data points pop in as the line reaches them -->
+  <g fill="#f2ede3" stroke="#c8451f" stroke-width="1.8">
+    <circle cx="560" cy="168" r="0"><animate attributeName="r" from="0" to="3.2" dur="0.25s" begin="0.45s" fill="freeze"/></circle>
+    <circle cx="600" cy="152" r="0"><animate attributeName="r" from="0" to="3.2" dur="0.25s" begin="0.7s" fill="freeze"/></circle>
+    <circle cx="640" cy="158" r="0"><animate attributeName="r" from="0" to="3.2" dur="0.25s" begin="0.95s" fill="freeze"/></circle>
+    <circle cx="680" cy="134" r="0"><animate attributeName="r" from="0" to="3.2" dur="0.25s" begin="1.2s" fill="freeze"/></circle>
+    <circle cx="720" cy="126" r="0"><animate attributeName="r" from="0" to="3.2" dur="0.25s" begin="1.45s" fill="freeze"/></circle>
+    <circle cx="760" cy="104" r="0"><animate attributeName="r" from="0" to="3.2" dur="0.25s" begin="1.7s" fill="freeze"/></circle>
+    <circle cx="800" cy="96" r="0"><animate attributeName="r" from="0" to="3.2" dur="0.25s" begin="1.95s" fill="freeze"/></circle>
+    <circle cx="858" cy="70" r="0"><animate attributeName="r" from="0" to="3.2" dur="0.25s" begin="2.3s" fill="freeze"/></circle>
+  </g>
+
+  <!-- annotation ring on the last point, slow dashed rotation -->
+  <circle cx="858" cy="70" r="9.5" fill="none" stroke="#c8451f" stroke-width="1.2" stroke-dasharray="3 4" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="2.6s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="rotate" values="0 858 70;360 858 70" dur="14s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- figure caption -->
+  <text x="864" y="207" text-anchor="end" font-family="Georgia,'Times New Roman',serif" font-style="italic" font-size="12.5" fill="#8a8175" opacity="0">
+    fig. 01 — upward &amp; to the right
+    <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="2.8s" fill="freeze"/>
+  </text>
+
+  <!-- footer rule + folio -->
+  <rect x="24" y="218" width="852" height="1" fill="#1a1817" opacity="0.6"/>
+  <g font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace" font-size="10" fill="#55504a" letter-spacing="2">
+    <text x="24" y="233">&#8470; 001</text>
+    <text x="876" y="233" text-anchor="end">@SiddhiRohan</text>
+  </g>
+</svg>
