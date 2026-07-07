@@ -2,7 +2,7 @@
   <img src="assets/hero-banner.svg" width="100%" alt="Siddhi Rohan — Data Science · Financial AI · NLP"/>
 </p>
 
-I build ML systems end to end — the models and the pipelines that feed them. Recently finished my M.S. in Data Science at the University of Maryland; before that I did data engineering and data science work in Bangalore. Most of what I make lands somewhere in financial AI, healthcare AI, or NLP.
+I build ML systems end to end, the models and the pipelines that feed them. Recently finished my M.S. in Data Science at the University of Maryland; before that I did data engineering and data science work in India. Most of what I make lands somewhere in financial AI, healthcare AI, or NLP.
 
 ---
 
