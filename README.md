@@ -20,7 +20,7 @@ I build ML systems end to end, the models and the pipelines that feed them. Rece
 
 ### Now
 
-Building out Arbiter, and looking for data science / ML engineering roles where I can ship models to production, not just notebooks. If you're working on anything in financial ML or LLM infrastructure, I'd like to hear about it.
+Building out something cool, and looking for data science / ML engineering roles where I can ship models to production, not just notebooks. If you're working on anything in financial ML or LLM infrastructure, I'd like to hear about it.
 
 ---
 
