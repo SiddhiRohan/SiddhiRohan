@@ -65,6 +65,7 @@ Also worth a look: [MedPal](https://github.com/SiddhiRohan/MedPal), a study comp
 ## Recently
 
 <!--START_SECTION:activity-->
+- Quiet week.
 <!--END_SECTION:activity-->
 
 <p align="center">
