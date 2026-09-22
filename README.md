@@ -6,7 +6,7 @@
 
 <br/>
 
-I train models and build the pipelines around them. M.S. in Data Science from the University of Maryland (2025), and before that a few years of data engineering and data science work in India. Most of what I build sits somewhere between finance, healthcare, and language.
+I train models and build the pipelines around them. M.S. in Data Science from the University of Maryland (2026), and before that a few years of data engineering and data science work in India. Most of what I build sits somewhere between finance, healthcare, and language.
 
 <br/>
 
