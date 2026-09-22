@@ -24,4 +24,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           MAX_LINES: 5
+          FILTER_EVENTS: PushEvent,PullRequestEvent,IssuesEvent,ReleaseEvent,CreateEvent
           COMMIT_MSG: "chore: refresh activity"
