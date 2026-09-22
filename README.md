@@ -65,7 +65,7 @@ Also worth a look: [MedPal](https://github.com/SiddhiRohan/MedPal), a study comp
 ## Recently
 
 <!--START_SECTION:activity-->
-- Quiet week.
+- Pushed to [SiddhiRohan/siddhirohan.github.io](https://github.com/SiddhiRohan/siddhirohan.github.io): *Rebuild as scroll-narrative site with morphing particle field* <sub>1d ago</sub>
 <!--END_SECTION:activity-->
 
 <p align="center">
