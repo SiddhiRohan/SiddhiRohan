@@ -69,7 +69,7 @@ A Vision Transformer that flags photographs with logical inconsistencies: shadow
 
 ## Background
 
-<img src="assets/section-background.jpg" width="100%" alt=""/>
+<img src="assets/section-background.gif" width="100%" alt=""/>
 
 <table>
   <tr>
