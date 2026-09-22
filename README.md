@@ -8,7 +8,7 @@
 
 <p align="center">
 I train models and build the pipelines around them.<br/>
-M.S. in Data Science from the University of Maryland (2025), and before that a few years of data engineering<br/>
+M.S. in Data Science from the University of Maryland (2026), and before that a few years of data engineering<br/>
 and data science work in India. Most of what I build sits somewhere between finance, healthcare, and language.
 </p>
 
@@ -75,7 +75,7 @@ A Vision Transformer that flags photographs with logical inconsistencies: shadow
   <tr>
     <td width="50%" valign="top">
       <b>University of Maryland</b><br/>
-      <sub>M.S. Data Science, 2025. Coursework in machine learning, NLP, computer vision, and data engineering. SceneIQ and VesprAI both started here.</sub>
+      <sub>M.S. Data Science, 2026. Coursework in machine learning, NLP, computer vision, and data engineering. SceneIQ and VesprAI both started here.</sub>
     </td>
     <td width="50%" valign="top">
       <b>Before that</b><br/>
