@@ -6,9 +6,13 @@
 
 <br/>
 
-I train models and build the pipelines around them. M.S. in Data Science from the University of Maryland (2026), and before that a few years of data engineering and data science work in India. Most of what I build sits somewhere between finance, healthcare, and language.
+<p align="center">
+I train models and build the pipelines around them.<br/>
+M.S. in Data Science from the University of Maryland (2025), and before that a few years of data engineering<br/>
+and data science work in India. Most of what I build sits somewhere between finance, healthcare, and language.
+</p>
 
-<br/>
+<br/><br/>
 
 ## Where I work
 
@@ -31,48 +35,64 @@ I train models and build the pipelines around them. M.S. in Data Science from th
   </tr>
 </table>
 
-<br/>
+<br/><br/>
 
 ## Work I'd show first
 
+<a href="https://github.com/SiddhiRohan/arbiter"><img src="assets/project-arbiter.jpg" width="100%" alt="Arbiter"/></a>
+
+### [Arbiter](https://github.com/SiddhiRohan/arbiter) &nbsp;<sub><sup>Python · FastAPI</sup></sub>
+
+Governance middleware that sits between an application and an LLM API. It decides what data the model is allowed to see, enforces role-based access before a prompt ever leaves the building, and logs what came back. Built for the case where the model is not the risk, the data you hand it is.
+
+<br/>
+
+<a href="https://github.com/SiddhiRohan/VesprAI"><img src="assets/project-vesprai.jpg" width="100%" alt="VesprAI"/></a>
+
+### [VesprAI](https://github.com/SiddhiRohan/VesprAI) &nbsp;<sub><sup>PyTorch · Transformers</sup></sub>
+
+An end-to-end financial intelligence platform. Transformer models score sentiment across market news, long filings get summarised automatically, and a fraud detector combines several approaches rather than trusting one. The output is meant to be read by someone deciding where to put money, not by another model.
+
+<br/>
+
+<a href="https://github.com/SiddhiRohan/sceneiq"><img src="assets/project-sceneiq.jpg" width="100%" alt="SceneIQ"/></a>
+
+### [SceneIQ](https://github.com/SiddhiRohan/sceneiq) &nbsp;<sub><sup>PyTorch · ViT</sup></sub>
+
+A Vision Transformer that flags photographs with logical inconsistencies: shadows going the wrong way, reflections that don't match, objects that couldn't be where they are. 94.4% accuracy on held-out data. Built for MSML640 at the University of Maryland.
+
+<br/>
+
+<sub>Also on the shelf: <a href="https://github.com/SiddhiRohan/MedPal">MedPal</a>, a study companion that watches for burnout, and <a href="https://github.com/SiddhiRohan/edushield">EduShield</a>, a role-governed AI connector for university records built at the Quantum Leap 2026 hackathon.</sub>
+
+<br/><br/>
+
+## Background
+
+<img src="assets/section-background.jpg" width="100%" alt=""/>
+
 <table>
   <tr>
-    <td width="33%" valign="top">
-      <a href="https://github.com/SiddhiRohan/arbiter"><img src="assets/project-arbiter.jpg" width="100%" alt="Arbiter"/></a>
-      <h3><a href="https://github.com/SiddhiRohan/arbiter">Arbiter</a></h3>
-      <p>Governance middleware between your app and an LLM API. Decides what data the model is allowed to see, enforces roles, and logs what it said back.</p>
-      <p><sub>Python · FastAPI</sub></p>
+    <td width="50%" valign="top">
+      <b>University of Maryland</b><br/>
+      <sub>M.S. Data Science, 2025. Coursework in machine learning, NLP, computer vision, and data engineering. SceneIQ and VesprAI both started here.</sub>
     </td>
-    <td width="33%" valign="top">
-      <a href="https://github.com/SiddhiRohan/VesprAI"><img src="assets/project-vesprai.jpg" width="100%" alt="VesprAI"/></a>
-      <h3><a href="https://github.com/SiddhiRohan/VesprAI">VesprAI</a></h3>
-      <p>Financial intelligence platform. Transformer sentiment over market news, document summarisation, and a fraud detector that takes more than one approach.</p>
-      <p><sub>PyTorch · Transformers</sub></p>
-    </td>
-    <td width="33%" valign="top">
-      <a href="https://github.com/SiddhiRohan/sceneiq"><img src="assets/project-sceneiq.jpg" width="100%" alt="SceneIQ"/></a>
-      <h3><a href="https://github.com/SiddhiRohan/sceneiq">SceneIQ</a></h3>
-      <p>Vision Transformer that flags logically inconsistent photographs. 94.4% accuracy on held-out data. Built for MSML640 at UMD.</p>
-      <p><sub>PyTorch · ViT</sub></p>
+    <td width="50%" valign="top">
+      <b>Before that</b><br/>
+      <sub>Data engineering and data science roles in India. Pipelines, warehouses, and the first models I ever put in front of real users.</sub>
     </td>
   </tr>
 </table>
 
-Also worth a look: [MedPal](https://github.com/SiddhiRohan/MedPal), a study companion that watches for burnout, and [SpaCySeleniumBTC](https://github.com/SiddhiRohan/SpaCySeleniumBTC), which correlates Bitcoin tweet sentiment with price. The older Kaggle-style notebooks are still here if you scroll far enough.
+<br/><br/>
 
-<br/>
-
-## Recently
-
-<!--START_SECTION:activity-->
-- Pushed to [SiddhiRohan/siddhirohan.github.io](https://github.com/SiddhiRohan/siddhirohan.github.io): *Rebuild as scroll-narrative site with morphing particle field* <sub>1d ago</sub>
-<!--END_SECTION:activity-->
+## Last twelve months
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SiddhiRohan&bg_color=0b1218&color=e8dcc0&line=2ec4b6&point=f5a623&area=true&area_color=2ec4b6&hide_border=true&hide_title=true&radius=8" width="100%" alt="Contribution graph"/>
+  <img src="assets/contributions.svg" width="100%" alt="Contribution heatmap"/>
 </p>
 
-<br/>
+<br/><br/>
 
 ## Right now
 
@@ -84,7 +104,7 @@ Looking for a data science or ML engineering role where models actually ship. If
 
 Python, SQL, PyTorch, Hugging Face Transformers, FastAPI, scikit-learn, Docker, React, Git.
 
-<br/>
+<br/><br/>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/siddhi-rohan/">LinkedIn</a>
