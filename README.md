@@ -18,16 +18,16 @@ and data science work in India. Most of what I build sits somewhere between fina
 
 <table>
   <tr>
-    <td width="50%"><img src="assets/domain-finance.jpg" width="100%" alt="Financial AI"/></td>
-    <td width="50%"><img src="assets/domain-health.jpg" width="100%" alt="Healthcare AI"/></td>
+    <td width="50%"><img src="assets/domain-finance.gif" width="100%" alt="Financial AI"/></td>
+    <td width="50%"><img src="assets/domain-health.gif" width="100%" alt="Healthcare AI"/></td>
   </tr>
   <tr>
     <td valign="top"><b>Financial AI</b><br/><sub>Market sentiment, fraud detection, time series. Where the signal is small and the cost of being wrong is not.</sub></td>
     <td valign="top"><b>Healthcare AI</b><br/><sub>Risk prediction and clinical decision support. Models that have to explain themselves before anyone will use them.</sub></td>
   </tr>
   <tr>
-    <td width="50%"><img src="assets/domain-nlp.jpg" width="100%" alt="NLP"/></td>
-    <td width="50%"><img src="assets/domain-mlops.jpg" width="100%" alt="ML Engineering"/></td>
+    <td width="50%"><img src="assets/domain-nlp.gif" width="100%" alt="NLP"/></td>
+    <td width="50%"><img src="assets/domain-mlops.gif" width="100%" alt="ML Engineering"/></td>
   </tr>
   <tr>
     <td valign="top"><b>NLP</b><br/><sub>Transformers for sentiment, summarisation, and retrieval. Turning documents into things a system can act on.</sub></td>
@@ -39,7 +39,7 @@ and data science work in India. Most of what I build sits somewhere between fina
 
 ## Work I'd show first
 
-<a href="https://github.com/SiddhiRohan/arbiter"><img src="assets/project-arbiter.jpg" width="100%" alt="Arbiter"/></a>
+<a href="https://github.com/SiddhiRohan/arbiter"><img src="assets/project-arbiter.gif" width="100%" alt="Arbiter"/></a>
 
 ### [Arbiter](https://github.com/SiddhiRohan/arbiter) &nbsp;<sub><sup>Python · FastAPI</sup></sub>
 
@@ -47,7 +47,7 @@ Governance middleware that sits between an application and an LLM API. It decide
 
 <br/>
 
-<a href="https://github.com/SiddhiRohan/VesprAI"><img src="assets/project-vesprai.jpg" width="100%" alt="VesprAI"/></a>
+<a href="https://github.com/SiddhiRohan/VesprAI"><img src="assets/project-vesprai.gif" width="100%" alt="VesprAI"/></a>
 
 ### [VesprAI](https://github.com/SiddhiRohan/VesprAI) &nbsp;<sub><sup>PyTorch · Transformers</sup></sub>
 
@@ -55,7 +55,7 @@ An end-to-end financial intelligence platform. Transformer models score sentimen
 
 <br/>
 
-<a href="https://github.com/SiddhiRohan/sceneiq"><img src="assets/project-sceneiq.jpg" width="100%" alt="SceneIQ"/></a>
+<a href="https://github.com/SiddhiRohan/sceneiq"><img src="assets/project-sceneiq.gif" width="100%" alt="SceneIQ"/></a>
 
 ### [SceneIQ](https://github.com/SiddhiRohan/sceneiq) &nbsp;<sub><sup>PyTorch · ViT</sup></sub>
 
