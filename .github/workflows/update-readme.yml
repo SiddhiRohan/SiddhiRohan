@@ -4,8 +4,6 @@ on:
   schedule:
     - cron: "0 */6 * * *"   # every 6 hours
   workflow_dispatch:
-  push:
-    branches: [main]
 
 permissions:
   contents: write
@@ -15,14 +13,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      # Fills the block between <!--START_SECTION:activity--> and
-      # <!--END_SECTION:activity--> with your last few public commits/PRs/issues.
-      - name: Recent activity
-        uses: jamesgeorge007/github-activity-readme@master
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Refresh recent activity
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          MAX_LINES: 5
-          FILTER_EVENTS: PushEvent,PullRequestEvent,IssuesEvent,ReleaseEvent,CreateEvent
-          COMMIT_MSG: "chore: refresh activity"
+        run: python scripts/update_activity.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: refresh activity" && git push
