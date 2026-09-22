@@ -24,10 +24,14 @@ for e in events:
     if repo == f"{USER}/{USER}": continue          # skip this repo's own refresh commits
     url = f"https://github.com/{repo}"
     t = e["type"]; p = e["payload"]
-    if t == "PushEvent" and p.get("commits"):
-        msg = p["commits"][-1]["message"].splitlines()[0]
-        n = len(p["commits"])
-        line = f"Pushed {n} commit{'s' if n > 1 else ''} to [{repo}]({url}): *{msg}*"
+    if t == "PushEvent" and p.get("head"):
+        try:
+            c = json.load(urllib.request.urlopen(urllib.request.Request(
+                f"https://api.github.com/repos/{repo}/commits/{p['head']}", headers=req.headers)))
+            msg = c["commit"]["message"].splitlines()[0]
+        except Exception:
+            msg = p["head"][:7]
+        line = f"Pushed to [{repo}]({url}): *{msg}*"
     elif t == "PullRequestEvent":
         pr = p["pull_request"]; line = f"{p['action'].capitalize()} PR [#{pr['number']}]({pr['html_url']}) in [{repo}]({url}): *{pr['title']}*"
     elif t == "IssuesEvent":
