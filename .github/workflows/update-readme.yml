@@ -1,0 +1,27 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # every 6 hours
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Fills the block between <!--START_SECTION:activity--> and
+      # <!--END_SECTION:activity--> with your last few public commits/PRs/issues.
+      - name: Recent activity
+        uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          MAX_LINES: 5
+          COMMIT_MSG: "chore: refresh activity"
